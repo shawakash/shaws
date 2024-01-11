@@ -1,4 +1,4 @@
-# [WebShell | Terminal Portfolio Website](https://terminal.nader.codes/)
+# [WebShell | Terminal Portfolio Website](https://terminal-portfolio-chi.vercel.app//)
 
 > Forked from [https://github.com/nasan016/webshell](https://github.com/nasan016/webshell)
 
@@ -37,7 +37,7 @@ Most of the configuration is done in the `config.json` file.
     "██║ ╚████║██║  ██║██████╔╝███████╗██║  ██║",
     "╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝ "
   ],
-  "repoLink": "https://github.com/dabit3/terminal-portfolio",
+  "repoLink": "https://github.com/shawakash/terminal-portfolio",
   "social": {
     "email": "shawakash2003@gmail.com",
     "github": "shawakash",
