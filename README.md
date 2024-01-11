@@ -39,22 +39,42 @@ Most of the configuration is done in the `config.json` file.
   ],
   "repoLink": "https://github.com/dabit3/terminal-portfolio",
   "social": {
-    "email": "dabit3@gmail.com",
-    "github": "dabit3",
-    "linkedin": "naderdabit"
+    "email": "shawakash2003@gmail.com",
+    "github": "shawakash",
+    "linkedin": "shawakash"
   },
-  "aboutGreeting": "Hi I'm Nader. I'm a full stack product engineer and developer educator.",
+  "aboutGreeting": "Hi I'm Akash. I'm a full stack engineer doing undergrad in ECE.",
   "projects": [
     [
-      "React Native AI",
-      "Full stack framework for building cross-platform mobile AI apps.",
-      "https://github.com/dabit3/react-native-ai"
+      "Youtube Creator",
+      "Full stack framework for Uploading youtube videos where editor can edit which then could be published on providing authentication.",
+      "https://github.com/shawkash/youtubeCreator"
     ],
     [
-      "React Native Elements",
-      "Cross-Platform React Native UI Toolkit.",
-      "https://github.com/react-native-elements/react-native-elements"
-    ]
+      "Whatsai",
+      "Whatsapp Bot that lets you talk to ai(chatgpt)",
+      "https://github.com/shawakash/whatsai"
+    ],
+    [
+      "Game_Of_Life",
+      "Conway's game of life implementaion in rust.",
+      "https://github.com/shawakash/game_of_life"
+    ],
+    [
+      "xChange",
+      "Upcoming a end to end exchange like binance",
+      "https://github.com/shawakash/game_of_life"
+    ],
+    [
+      "Distributed Chat System",
+      "Pub/Sub redis powered chat backend.",
+      "https://github.com/shawakash/DistributeChat_Redis"
+    ],
+    [
+      "Course_Selling App",
+      "Simple Crud based Course selling app.",
+      "https://github.com/shawakash/Course-Selling-App"
+    ],
   ]
 }
 ```
@@ -71,9 +91,9 @@ cd webshell
 ```
 Install the dependencies
 ```shell
-npm install
+yarn install
 ```
 Start the server
 ```shell
-npm run dev
+yarn run dev
 ```
