@@ -101,6 +101,10 @@ const helpObj = {
     [
       "'home'",
       "Go back to github/shawakash"
+    ],
+    [
+      "'wave'",
+      "Write something for me"
     ]
   ],
 }

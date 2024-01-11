@@ -224,7 +224,13 @@ function commandHandler(input : string) {
     case 'home':
       writeLines(["Redirecting to github...", "<br>"]);
       setTimeout(() => {
-        window.open('https://github/shawakash');
+        window.open('https://github.com/shawakash');
+      }, 500);
+      break;
+    case 'wave':
+      writeLines(["Redirecting to waver...", "<br>"]);
+      setTimeout(() => {
+        window.open('https://wavers-bg2xh6fl4-shawakash.vercel.app/');
       }, 500);
       break;
     case 'rm -rf':
