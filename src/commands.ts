@@ -100,7 +100,7 @@ const helpObj = {
     ],
     [
       "'home'",
-      "Go back to nader.codes."
+      "Go back to github/shawakash"
     ]
   ],
 }

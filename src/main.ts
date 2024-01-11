@@ -21,7 +21,7 @@ const PROMPT = document.getElementById("prompt");
 const COMMANDS = ["help", "about", "projects", "whoami", "repo", "banner", "clear"];
 const REPO_LINK = com.REPO_LINK;
 const HISTORY : string[] = [];
-const SUDO_PASSWORD = "050823"
+const SUDO_PASSWORD = "fuck_u"
 
 const scrollToBottom = () => {
   const MAIN = document.getElementById("main");
@@ -222,9 +222,9 @@ function commandHandler(input : string) {
       }, 500);
       break;
     case 'home':
-      writeLines(["Redirecting to nader.codes...", "<br>"]);
+      writeLines(["Redirecting to github...", "<br>"]);
       setTimeout(() => {
-        window.open('https://nader.codes');
+        window.open('https://github/shawakash');
       }, 500);
       break;
     case 'rm -rf':
