@@ -74,7 +74,7 @@ const helpObj = {
   "commands": [
     [
     "'about'",
-    "Who is Nader?",
+    "Who is Akash?",
     ],
     [
       "'projects'",
