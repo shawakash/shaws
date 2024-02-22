@@ -30,14 +30,14 @@ Most of the configuration is done in the `config.json` file.
 ```json
 {
   "ascii": [
-    "███╗   ██╗ █████╗ ██████╗ ███████╗██████╗ ",
-    "████╗  ██║██╔══██╗██╔══██╗██╔════╝██╔══██╗",
-    "██╔██╗ ██║███████║██║  ██║█████╗  ██████╔╝",
-    "██║╚██╗██║██╔══██║██║  ██║██╔══╝  ██╔══██╗",
-    "██║ ╚████║██║  ██║██████╔╝███████╗██║  ██║",
-    "╚═╝  ╚═══╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝ "
+    "███████╗██╗  ██╗ █████╗ ██╗    ██╗",
+    "██╔════╝██║  ██║██╔══██╗██║    ██║",
+    "███████╗███████║███████║██║ █╗ ██║",
+    "╚════██║██╔══██║██╔══██║██║███╗██║",
+    "███████║██║  ██║██║  ██║╚███╔███╔╝",
+    "╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚══╝╚══╝"
   ],
-  "repoLink": "https://github.com/shawakash/terminal-portfolio",
+  "repoLink": "https://github.com/shawakash/shaws",
   "social": {
     "email": "shawakash2003@gmail.com",
     "github": "shawakash",
@@ -45,6 +45,11 @@ Most of the configuration is done in the `config.json` file.
   },
   "aboutGreeting": "Hi I'm Akash. I'm a full stack engineer doing undergrad in ECE.",
   "projects": [
+    [
+      "PayBox",
+      "Web3 Wallet For Buisness.",
+      "https://github.com/shawkash/payBox"
+    ],
     [
       "Youtube Creator",
       "Full stack framework for Uploading youtube videos where editor can edit which then could be published on providing authentication.",
