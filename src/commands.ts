@@ -227,7 +227,7 @@ const createAbout = () : string[] => {
 
   string = '';
   string += SPACE.repeat(2);
-  string += linkedin;
+  string += codeforces;
   string += SPACE.repeat(30 - CODEFORCES.length);  
   string += `<a target='_blank' href='https://codeforces.com/profile/${command.social.codeforces}'>codeforces/${command.social.codeforces}</a>`;
   about.push(string);
