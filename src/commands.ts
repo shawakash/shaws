@@ -199,12 +199,14 @@ const createAbout = () : string[] => {
   const LINKEDIN = "Linkedin";
   const SUBSTACK = "Substack";
   const YOUTUBE = 'Youtube';
+  const CODEFORCES = "Codeforces";
   
   const email = `<i class='fa-solid fa-envelope'></i> ${EMAIL}`;   
   const github = `<i class='fa-brands fa-github'></i> ${GITHUB}`;
   const linkedin = `<i style="margin-left:1px;margin-right:-1px;" class='fa-brands fa-linkedin'></i> ${LINKEDIN}`;
   const substack = `<i style="margin-left: 1px; margin-right:2px;"  class='fa-solid fa-bookmark'></i> ${SUBSTACK}`;
   const youtube = `<i style="margin-right:-2px;" class='fa-brands fa-youtube'></i> ${YOUTUBE}`;
+  const youtube = `<i style="margin-right:-2px;" class='fa-brands fa-codeforces'></i> ${CODEFORCES}`;
   let string = "";
 
   about.push("<br>");
@@ -225,10 +227,18 @@ const createAbout = () : string[] => {
 
   string = '';
   string += SPACE.repeat(2);
+  string += linkedin;
+  string += SPACE.repeat(30 - CODEFORCES.length);  
+  string += `<a target='_blank' href='https://codeforces.com/profile/${command.social.linkedin}'>codeforces/${command.social.codeforces}</a>`;
+  about.push(string);
+
+  string = '';
+  string += SPACE.repeat(2);
   string += substack;
   string += SPACE.repeat(30 - SUBSTACK.length);  
   string += `<a target='_blank' href='https://${command.social.substack}.substack.com'>${command.social.substack}.substack.com</a>`;
   about.push(string);
+  
 
   string = '';
   string += SPACE.repeat(2);
